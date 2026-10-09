@@ -1,0 +1,21 @@
+# Utils Folder
+# 
+# Purpose: Store utility functions, helpers, and shared code
+# 
+# Best Practices:
+# - Keep utility functions pure and stateless when possible
+# - One utility file per concern (e.g., logger.ts, helpers.ts, validators.ts)
+# - Utilities should be reusable across the application
+# - Avoid business logic in utilities - keep them generic
+# - Export functions individually for better tree-shaking
+# - Document utility functions with JSDoc comments
+# - Keep utilities focused and small
+# - Test utilities thoroughly as they're used across the app
+# 
+# Example utilities:
+# - logger.ts (logging utilities)
+# - helpers.ts (general helper functions)
+# - validators.ts (validation utilities)
+# - formatters.ts (data formatting functions)
+# - constants.ts (application constants)
+

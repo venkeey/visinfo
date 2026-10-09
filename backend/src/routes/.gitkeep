@@ -1,0 +1,20 @@
+# Routes Folder
+# 
+# Purpose: Define API endpoints and route handlers
+# 
+# Best Practices:
+# - Organize routes by resource/feature (e.g., poll.routes.ts, response.routes.ts)
+# - Use Express Router for modular route definitions
+# - Apply middleware at the route level (authentication, validation)
+# - Keep route definitions clean - delegate to controllers
+# - Use RESTful naming conventions for endpoints
+# - Group related routes together
+# - Document routes with comments or use OpenAPI/Swagger
+# - Apply rate limiting and security middleware where needed
+# 
+# Example structure:
+# - poll.routes.ts (/api/polls)
+# - response.routes.ts (/api/responses)
+# - ai.routes.ts (/api/ai)
+# - health.routes.ts (/health)
+

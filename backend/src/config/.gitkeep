@@ -1,0 +1,18 @@
+# Configuration Folder
+# 
+# Purpose: Store application configuration files, environment variables, and settings
+# 
+# Best Practices:
+# - Keep all configuration logic centralized here
+# - Use environment variables for sensitive data (API keys, secrets)
+# - Create separate config files for different environments (dev, prod, test)
+# - Export a single config object that aggregates all settings
+# - Never commit .env files - use .env.example as a template
+# - Validate required environment variables on application startup
+# 
+# Example files:
+# - config.ts (main configuration)
+# - database.config.ts
+# - ai.config.ts
+# - constants.ts
+

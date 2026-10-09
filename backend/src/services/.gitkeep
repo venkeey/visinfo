@@ -1,0 +1,20 @@
+# Services Folder
+# 
+# Purpose: Contain business logic and orchestrate data operations
+# 
+# Best Practices:
+# - Services contain the core business logic of your application
+# - Services interact with models/repositories to perform data operations
+# - One service per domain/resource (e.g., poll.service.ts, ai.service.ts)
+# - Services can call other services when needed
+# - Keep services independent and testable
+# - Handle business rules and validation logic here
+# - Services should not directly handle HTTP requests/responses
+# - Use dependency injection when possible for better testability
+# 
+# Example structure:
+# - poll.service.ts
+# - response.service.ts
+# - ai.service.ts (AI processing logic)
+# - clustering.service.ts
+

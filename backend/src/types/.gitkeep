@@ -1,0 +1,21 @@
+# Types Folder
+# 
+# Purpose: Define TypeScript types, interfaces, and type definitions
+# 
+# Best Practices:
+# - Organize types by domain or feature
+# - Use interfaces for object shapes that might be extended
+# - Use types for unions, intersections, and computed types
+# - Export types that are shared across multiple modules
+# - Keep types close to where they're used when they're module-specific
+# - Use descriptive names for types and interfaces
+# - Document complex types with comments
+# - Group related types in the same file
+# - Use enums for fixed sets of values
+# 
+# Example structure:
+# - ai.types.ts (AI-related types)
+# - poll.types.ts (Poll-related types)
+# - api.types.ts (API request/response types)
+# - common.types.ts (shared/common types)
+

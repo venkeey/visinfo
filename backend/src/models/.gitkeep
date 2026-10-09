@@ -1,0 +1,19 @@
+# Models Folder
+# 
+# Purpose: Define data structures, database schemas, and data access patterns
+# 
+# Best Practices:
+# - Define TypeScript interfaces/types for your data structures
+# - Create database schemas (Mongoose, Prisma, etc.) here
+# - One model per database collection/table
+# - Include validation rules in model definitions
+# - Define relationships between models
+# - Export both interfaces/types and model classes
+# - Keep models focused on data structure, not business logic
+# - Use TypeScript for type safety
+# 
+# Example structure:
+# - poll.model.ts (Poll interface and Mongoose schema)
+# - response.model.ts (Response interface and Mongoose schema)
+# - user.model.ts (if user authentication is added)
+

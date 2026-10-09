@@ -1,0 +1,18 @@
+# Controllers Folder
+# 
+# Purpose: Handle HTTP requests and responses - the entry point for API routes
+# 
+# Best Practices:
+# - Keep controllers thin - delegate business logic to services
+# - Controllers should only handle: request validation, calling services, formatting responses
+# - One controller per resource/domain (e.g., poll.controller.ts, response.controller.ts)
+# - Use async/await for asynchronous operations
+# - Return consistent response formats
+# - Handle errors by passing them to error handling middleware
+# - Extract request parameters, body, and query in controllers
+# 
+# Example structure:
+# - poll.controller.ts
+# - response.controller.ts
+# - ai.controller.ts
+

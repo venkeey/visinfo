@@ -1,0 +1,21 @@
+# Middleware Folder
+# 
+# Purpose: Reusable functions that process requests before they reach route handlers
+# 
+# Best Practices:
+# - Create reusable middleware functions for common tasks
+# - One middleware per concern (authentication, validation, logging, error handling)
+# - Middleware should be composable and chainable
+# - Use TypeScript for type safety in middleware
+# - Handle errors in dedicated error handling middleware
+# - Keep middleware focused on a single responsibility
+# - Export middleware functions for easy importing
+# - Test middleware independently
+# 
+# Example middleware:
+# - errorHandler.ts (global error handling)
+# - validation.ts (request validation)
+# - auth.ts (authentication/authorization)
+# - logger.ts (request logging)
+# - rateLimiter.ts (rate limiting)
+
